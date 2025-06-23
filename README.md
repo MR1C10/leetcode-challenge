@@ -89,6 +89,9 @@ The repository includes a script to automatically fetch problems from LeetCode a
 
 **Observation: Check if problem generate is the same what you wish to commit to this repo.
 If not, check title problem in here <a href="https://leetcode.com/api/problems/all/">LINK</a> and catch it in "question id".**
+
+**I made this program [LeetCode-Exporter](https://github.com/MR1C10/LeetCode-Exporter) that generates an .xlsx file with all the challenges separated by id, title, difficulty and tags**
+
 ### Directory Structure
 
 After running the script, a new problem directory will be created following the repository structure pattern:

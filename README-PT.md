@@ -89,6 +89,8 @@ O repositório inclui um script para buscar automaticamente problemas do LeetCod
 **Observação: Verifique se o problema gerado é o mesmo que você deseja adicionar ao repositório.
 Se não for, confira o título do problema neste <a href="https://leetcode.com/api/problems/all/">LINK</a> e pegue o "question id".**
 
+**Criei este programa [LeetCode-Exporter](https://github.com/MR1C10/LeetCode-Exporter), que gera um arquivo .xlsx com todos os desafios do LeetCode organizados por ID, título, dificuldade e tags.**
+
 ### Estrutura de Diretórios
 
 Após rodar o script, um novo diretório de problema será criado seguindo o padrão do repositório:
