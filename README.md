@@ -7,13 +7,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/caio-andres/leetcode-challenge/graphs/contributors">
+  <a href="https://github.com/mr1c10/leetcode-challenge/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/mr1c10/leetcode-challenge?color=ffa116&logo=github&style=flat-square" alt="GitHub Contributors">
   </a>
-  <a href="https://github.com/caio-andres/leetcode-challenge/stargazers">
+  <a href="https://github.com/mr1c10/leetcode-challenge/stargazers">
     <img src="https://img.shields.io/github/stars/mr1c10/leetcode-challenge?color=ffa116&logo=github&style=flat-square" alt="GitHub Stars">
   </a>
-  <a href="https://github.com/caio-andres/leetcode-challenge/forks">
+  <a href="https://github.com/mr1c10/leetcode-challenge/forks">
     <img src="https://img.shields.io/github/forks/mr1c10/leetcode-challenge?color=ffa116&logo=github&style=flat-square" alt="GitHub Forks">
   </a>
 </p>
