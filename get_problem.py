@@ -2,9 +2,9 @@ import requests
 import re
 from html2text import html2text
 import os
-from googletrans import Translator
+from deep_translator import GoogleTranslator
 
-translator = Translator()
+translator = GoogleTranslator(source='en', target='pt')
 
 def save_full_structure(problem_data):
     if not problem_data:
@@ -63,8 +63,8 @@ def save_full_structure(problem_data):
 
 def translate_text(text):
     try:
-        translated = translator.translate(text, src='en', dest='pt')
-        return translated.text
+        translated = GoogleTranslator(source='en', target='pt').translate(text)
+        return translated
     except Exception as e:
         print(f"Erro ao traduzir texto: {e}")
         return text
