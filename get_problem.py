@@ -52,7 +52,7 @@ def save_full_structure(problem_data):
         # Comentar o código da solução
         commented_solution_code = "\n".join([f"## {line}" for line in solution_code.splitlines()])
 
-        with open(os.path.join(base_path, "solution.py"), "w", encoding="utf-8") as f:
+        with open(os.path.join(base_path, "solution.cs"), "w", encoding="utf-8") as f:
             f.write(commented_solution_code + "\n")
 
         return True
