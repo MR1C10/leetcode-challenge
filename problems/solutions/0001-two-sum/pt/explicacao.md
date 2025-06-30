@@ -1,29 +1,37 @@
 # 1. Two Sum - Explicação da Solução
 
-## Abordagem: Utilizando Hash Table (Dicionário)
+## Abordagem: Utilizando Dicionário (Hash Table)
 
-A solução utiliza uma estrutura de dados hash table para resolver o problema em uma única passagem pelos elementos do array.
+A solução utiliza um dicionário para armazenar os números já percorridos junto com seus respectivos índices. Essa abordagem permite resolver o problema em tempo linear **O(n)**, evitando a comparação de todos os pares possíveis (que teria complexidade O(n²)).
 
-## Lógica do Algoritmo:
+## Lógica do Algoritmo
 
-1. Criamos um dicionário vazio `num_to_index` que irá mapear cada número do array para seu índice.
-2. Percorremos o array `nums` com um loop.
-3. Para cada número atual (`num`):
-   - Calculamos o "complemento" (`target - num`) que, somado ao número atual, resultaria no valor alvo.
-   - Verificamos se esse complemento já foi visto anteriormente (está no dicionário).
-   - Se encontrarmos o complemento, retornamos os índices dos dois números.
-   - Caso contrário, armazenamos o número atual e seu índice no dicionário para consultas futuras.
+1. Criamos um dicionário vazio chamado `mapa`, que irá mapear cada número do array para seu índice.
+2. Percorremos o array `nums` com um laço `for`.
+3. Para cada número atual `nums[i]`:
+   - Calculamos o **complemento**: `complemento = target - nums[i]`.
+   - Verificamos se esse complemento já existe no dicionário:
+     - Se sim, significa que encontramos os dois números que somam o valor alvo (`target`), e retornamos os índices: o do complemento e o do número atual.
+     - Caso contrário, adicionamos `nums[i]` ao dicionário, associando-o ao índice `i`.
 
-## Exemplo Passo a Passo:
+## Exemplo Passo a Passo
 
-Usando o exemplo: `nums = [2, 7, 11, 15]`, `target = 9`
+**Entrada:** `nums = [2, 7, 11, 15]`, `target = 9`
 
-1. Inicializamos `num_to_index = {}`
-2. Iteração 1:
-   - `num = 2`, `complemento = 9 - 2 = 7`
-   - `7` não está em `num_to_index`
-   - Adicionamos `num_to_index[2] = 0`
-3. Iteração 2:
-   - `num = 7`, `complemento = 9 - 7 = 2`
-   - `2` está em `num_to_index` com valor `0`
-   - Retornamos `[0, 1]` (índices dos números 2 e 7)
+1. Inicializamos o dicionário: `mapa = {}`
+2. Iteração 0:
+   - `nums[0] = 2`
+   - `complemento = 9 - 2 = 7`
+   - `7` **não** está no dicionário
+   - Adiciona `2` ao dicionário: `mapa = { 2: 0 }`
+3. Iteração 1:
+   - `nums[1] = 7`
+   - `complemento = 9 - 7 = 2`
+   - `2` **está** no dicionário (índice `0`)
+   - Retorna `[0, 1]`
+
+## Complexidade
+
+- **Tempo:** O(n), pois percorremos o array uma única vez.
+- **Espaço:** O(n), por causa do dicionário usado para armazenar os números já vistos.
+
