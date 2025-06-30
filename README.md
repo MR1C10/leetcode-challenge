@@ -42,7 +42,7 @@ To contribute to or use this repository, you'll need to set up your environment 
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/caio-andres/leetcode-challenge.git
+   git clone https://github.com/mr1c10/leetcode-challenge.git
    cd leetcode-challenge
    ```
 
