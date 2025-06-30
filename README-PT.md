@@ -162,7 +162,7 @@ Usei o [LeetCode-Stats-Card](https://github.com/JacobLinCool/LeetCode-Stats-Card
 ## Progresso Atual
 
 - **Total de Problemas Resolvidos**: 1
-- **Ultimo problema resolvido**: [9. Palindrome number](problems/solutions/0009-palindrome-number/solution.cs)
+- **Ultimo problema resolvido**: [9. Palindrome Number](problems/solutions/0009-palindrome-number/solution.cs)
 
 Estou comprometido em manter essa sequência e expandir continuamente o repositório com novos desafios e soluções.
 

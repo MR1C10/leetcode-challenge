@@ -165,7 +165,7 @@ I used [LeetCode-Stats-Card](https://github.com/JacobLinCool/LeetCode-Stats-Card
 
 
 - **Total Problems Solved**: 1
-- **Last Problem made**: [9. Palindrome number](problems/solutions/0009-palindrome-number/solution.cs)
+- **Last Problem made**: [9. Palindrome Number](problems/solutions/0009-palindrome-number/solution.cs)
 
 
 I am committed to maintaining this streak and continually expanding the repository with new challenges and solutions.
