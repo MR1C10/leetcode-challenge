@@ -1,15 +1,22 @@
 public class Solution {
-    public int[] TwoSum(int[] nums, int target) {
+    public int[] TwoSum(int[] nums, int target) 
+    {
+        Dictionary<int, int> mapa = new Dictionary<int, int>();
+
         for (int i = 0; i < nums.Length; i++)
         {
-            for (int j = i + 1; j < nums.Length; j++)
+            int complemento = target - nums[i];
+            if (mapa.ContainsKey(complemento))
             {
-                if ((nums[i] + nums[j]) == target)
-                {
-                    return new int[] {i, j};
-                }
+                return new int[] {mapa[complemento], i};
+            }
+
+            if (!mapa.ContainsKey(nums[i]))
+            {
+                mapa[nums[i]] = i;
             }
         }
+
         return null;
     }
 }
