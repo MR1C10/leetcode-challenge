@@ -44,13 +44,13 @@ def save_full_structure(problem_data):
         with open(os.path.join(base_path, "pt", "explicacao.md"), "w", encoding="utf-8") as f:
             f.write("")
 
-        # Solução em Python
+        # Solução em Csharp
         snippets = problem_data.get("codeSnippets", [])
-        python_snippet = next((s for s in snippets if s["langSlug"] == "python3"), None)
-        solution_code = python_snippet["code"] if python_snippet else "# Escreva sua solução aqui\n"
+        csharp_snippet = next((s for s in snippets if s["langSlug"] == "csharp"), None)
+        solution_code = csharp_snippet["code"] if csharp_snippet else "// Escreva sua solução aqui\n"
         
         # Comentar o código da solução
-        commented_solution_code = "\n".join([f"## {line}" for line in solution_code.splitlines()])
+        commented_solution_code = "\n".join([f"// {line}" for line in solution_code.splitlines()])
 
         with open(os.path.join(base_path, "solution.cs"), "w", encoding="utf-8") as f:
             f.write(commented_solution_code + "\n")
