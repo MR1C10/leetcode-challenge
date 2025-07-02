@@ -161,8 +161,8 @@ Usei o [LeetCode-Stats-Card](https://github.com/JacobLinCool/LeetCode-Stats-Card
 
 ## Progresso Atual
 
-- **Total de Problemas Resolvidos**: 2
-- **Ultimo problema resolvido**: [9. Palindrome Number](problems/solutions/0009-palindrome-number/solution.cs)
+- **Total de Problemas Resolvidos**: 3
+- **Ultimo problema resolvido**: [13. Roman to Integer](problems/solutions/0013-roman-to-integer/solution.cs)
 
 Estou comprometido em manter essa sequência e expandir continuamente o repositório com novos desafios e soluções.
 

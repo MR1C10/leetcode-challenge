@@ -164,8 +164,8 @@ I used [LeetCode-Stats-Card](https://github.com/JacobLinCool/LeetCode-Stats-Card
 
 
 
-- **Total Problems Solved**: 2
-- **Last Problem made**: [9. Palindrome Number](problems/solutions/0009-palindrome-number/solution.cs)
+- **Total Problems Solved**: 3
+- **Last Problem made**: [13. Roman to Integer](problems/solutions/0013-roman-to-integer/solution.cs)
 
 
 I am committed to maintaining this streak and continually expanding the repository with new challenges and solutions.
