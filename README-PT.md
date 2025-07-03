@@ -186,4 +186,5 @@ Ou, se preferir, conecte-se comigo no **LinkedIn**: [Mauricio Rodrigues](https:/
 
 _Se quiser apoiar, deixe uma estrela ⭐ no repositório — isso significa muito. Obrigado! :)_
 
-##### Este é o Readme do projeto _em português_, caso prefira acompanhar o Readme
+##### Este é o Readme do projeto _em português_, caso prefira acompanhar o Readme em inglês, [clique aqui](README.md)
+
